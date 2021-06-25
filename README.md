@@ -17,3 +17,18 @@ When the code above is run, `"Hello, World!"` will be output to the terminal.
 
 Generally, PHP ignores whitespace (tabs, spaces, new lines), so this code yields the same result as the previous example:
 
+```
+<?php
+echo     "Hello, World!";
+
+```
+
+You may be surprised that this code also works:
+
+```
+<?php
+Echo "Hello, World!";
+
+```
+
+Unlike many other languages, PHP is not always case-sensitive, so Echo is a valid statement in PHP. However, it’s best practice to use standard casing
